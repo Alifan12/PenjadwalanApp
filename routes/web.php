@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('Loginpage');
 });
 
-Route::get('createRapat', 'createRapatbaruController@index');
+Route::get('createRapat', function () {
+    return view('/layout/buatRapatBaru');
+});
