@@ -107,7 +107,7 @@
                     </label> -->
                 </div>
                 <div class="txtfilled">
-                    <input class="icon-2" type="text" name="password" required class="form-control"
+                    <input class="icon-2" type="password" name="password" required class="form-control"
                         placeholder="Password" id="password" size="30">
                     <!-- <label for="password" class="form-label">
                     <img src="" width="30px">Password
