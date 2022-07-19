@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FileManager</title>
+    <title>Login | FileManager</title>
     <style>
         body {
             background-image: linear-gradient(to right, rgba(0, 230, 244, 0.89), rgba(0, 0, 128, 1));
@@ -24,8 +24,6 @@
             position: absolute;
             top: 20%;
             left: 27%;
-            /* top: calc(100%/2);
-            left: calc(100%/2); */
             background: #F5F5F5;
             border: 1px solid #000000;
             border-radius: 20px;
@@ -59,6 +57,7 @@
             display: inline-block;
             font-size: 16px;
             border-radius: 10px;
+            cursor: pointer;
         }
 
         .tengah {
@@ -77,7 +76,7 @@
             padding-left: 25px;
             padding-top: 10px;
             padding-bottom: 10px;
-            background: url("/icon/user.png") no-repeat right;
+            background: url("/icon/user.png") no-repeat left;
             background-size: 20px;
         }
 
@@ -85,7 +84,7 @@
             padding-left: 25px;
             padding-top: 10px;
             padding-bottom: 10px;
-            background: url("/icon/lock.png") no-repeat right;
+            background: url("/icon/lock.png") no-repeat left;
             background-size: 20px;
         }
     </style>
@@ -102,22 +101,17 @@
                 <div class="txtfilled">
                     <input class="icon-1" type="text" name="username" required class="form-control"
                         placeholder="Username" id="username" size="30">
-                    <!-- <label for="username" class="form-label">
-                        <img src="" width="30px">Username
-                    </label> -->
                 </div>
                 <div class="txtfilled">
                     <input class="icon-2" type="password" name="password" required class="form-control"
                         placeholder="Password" id="password" size="30">
-                    <!-- <label for="password" class="form-label">
-                    <img src="" width="30px">Password
-                 </label> -->
+                 </label>
                 </div>
                 <div class="txtfilled">
                     <button type="submit" class="button">Login</button>
                 </div>
                 <div class="txtfilled">
-                    <span>Belum memiliki akun ?</span> <span><a href="#">Klik disini</a></span>
+                    <span>Belum memiliki akun ?</span> <span><a href="/register">Klik disini</a></span>
                 </div>
             </form>
         </div>

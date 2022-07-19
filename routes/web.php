@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('Loginpage');
 });
 
+Route::get('/register', function () {
+    return view('Register');
+});
 Route::get('createRapat', function () {
     return view('/layout/buatRapatBaru');
 });
