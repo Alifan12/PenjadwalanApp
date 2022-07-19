@@ -21,6 +21,10 @@ Route::get('/', function () {
 Route::get('/register', function () {
     return view('Register');
 });
+Route::get('/home', function () {
+    return view('Homepage');
+});
+
 Route::get('createRapat', function () {
     return view('/layout/buatRapatBaru');
 });
