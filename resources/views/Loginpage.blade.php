@@ -116,6 +116,9 @@
                 <div class="txtfilled">
                     <button type="submit" class="button">Login</button>
                 </div>
+                <div class="txtfilled">
+                    <span>Belum memiliki akun ?</span> <span><a href="#">Klik disini</a></span>
+                </div>
             </form>
         </div>
         <div class="tengah">
