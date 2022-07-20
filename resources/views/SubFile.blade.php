@@ -43,15 +43,16 @@
     width: 30px;
   }
 
-  .below-navbar .iconProfile {
+  .below-navbar .iconUpload {
     float: right;
     width: 10%;
     text-align: right;
-    padding-right: 10px;
+    padding: 10px 20px 10px 10px;
+
   }
 
   img {
-    width: 50px;
+    width: 20px;
   }
   </style>
 </head>
@@ -63,8 +64,8 @@
       <p class="Address">Drive <span class="addressArrow"><img class="iconAddressArrow" src="arrow_right.png"
             alt="arrow">2021</span><img src="arrow_right.png" alt="arrow">01</p>
     </div>
-    <div class="iconProfile">
-      <img src="bxs_user-circle.png" alt="Profile">
+    <div class="iconUpload">
+      <a href="#"><img src="upload.png" alt="upload"></a>
     </div>
   </div>
 </body>
