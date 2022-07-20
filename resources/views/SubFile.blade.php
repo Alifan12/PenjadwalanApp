@@ -11,7 +11,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
   </script>
-
   <style>
   .nav-bar {
     width: auto;
@@ -54,48 +53,6 @@
   img {
     width: 50px;
   }
-
-
-  .content a {
-    display: flex;
-    width: 100%;
-    padding: 10px 25px;
-    border-bottom: solid 1px;
-    font-size: large;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-  }
-
-  .content a span:link {
-    text-decoration: none;
-  }
-
-  .content a span:visited {
-    text-decoration: none;
-  }
-
-  .content a span:hover {
-    text-decoration: none;
-  }
-
-  .content a span:active {
-    text-decoration: none;
-  }
-
-  .content img {
-    width: 35px;
-  }
-
-  .content span {
-    margin-left: 10px;
-  }
-
-  .content {
-    width: auto;
-    height: 50px;
-  }
   </style>
 </head>
 
@@ -104,19 +61,11 @@
   <div class="below-navbar">
     <div class="parentAddress">
       <p class="Address">Drive <span class="addressArrow"><img class="iconAddressArrow" src="arrow_right.png"
-            alt="arrow">2021</span><img src="arrow_right.png" alt="arrow"></p>
+            alt="arrow">2021</span><img src="arrow_right.png" alt="arrow">01</p>
     </div>
     <div class="iconProfile">
       <img src="bxs_user-circle.png" alt="Profile">
     </div>
-  </div>
-
-  <div class="content">
-    <a href="/SubFile">
-      <img src="/image 4.png" alt="logo folder">
-      <span>01</span>
-    </a>
-
   </div>
 </body>
 

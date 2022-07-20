@@ -28,3 +28,7 @@ Route::get('/home', function () {
 Route::get('/SubFolder', function () {
     return view('SubFolder');
 });
+
+Route::get('/SubFile', function () {
+    return view('SubFile');
+});
