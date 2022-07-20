@@ -23,16 +23,59 @@
   }
 
   .below-navbar {
-    width: auto;
+    width: 100%;
+    height: 60px;
     padding: 5px;
-
+    border-bottom: solid 1px;
   }
 
-  .parentAddress {
-    width: 50%;
+  .below-navbar .parentAddress {
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 700;
   }
 
-  .iconProfile {}
+  .Address img {
+    width: 30px;
+  }
+
+  .below-navbar .iconProfile {
+    float: right;
+    width: 10%;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  img {
+    width: 50px;
+  }
+
+  .subFolder {
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px;
+  }
+
+  .subFolder .logo-folder {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .subFolder .folder-name {
+    float: right;
+    width: 90%;
+  }
+
+  .logo-folder img {
+    width: 35px;
+  }
   </style>
 </head>
 
@@ -40,13 +83,24 @@
   <div class="nav-bar"></div>
   <div class="below-navbar">
     <div class="parentAddress">
-      <p>Drive</p>
+      <p class="Address">Drive <span class="addressArrow"><img class="iconAddressArrow" src="arrow_right.png"
+            alt="arrow">2021</span><img src="arrow_right.png" alt="arrow"></p>
     </div>
     <div class="iconProfile">
       <img src="bxs_user-circle.png" alt="Profile">
     </div>
   </div>
 
+  <div class="below-navbar">
+    <div class="logo-folder">
+      <div class="logo">
+        <img src="image 4.png" alt="logo folder">
+      </div>
+    </div>
+    <div class="folder-name">
+      <p>01</p>
+    </div>
+  </div>
 </body>
 
 </html>
