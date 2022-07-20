@@ -22,9 +22,12 @@
     margin: 50px;
     box-sizing: border-box;
 
-    position: absolute;
-    top: 20%;
-    left: 27%;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 50%;
     background: #F5F5F5;
     border: 1px solid #000000;
     border-radius: 20px;

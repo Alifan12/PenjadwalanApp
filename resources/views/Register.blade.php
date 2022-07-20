@@ -20,16 +20,14 @@
   }
 
   .container {
-    display: grid;
-    grid-template-areas:
-      'main tengah logo';
-    margin: 50px;
+    display: center;
     box-sizing: border-box;
     padding: 20px;
-    border: 20px;
-    position: absolute;
-    top: 5%;
-    left: 35%;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
     background: #F5F5F5;
     border: 1px solid #000000;
     border-radius: 20px;
@@ -45,7 +43,7 @@
 
   .icon-1 {
     font-style: italic;
-    padding-left: 20px;
+    padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-size: 20px;
