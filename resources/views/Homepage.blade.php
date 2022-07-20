@@ -9,15 +9,63 @@
     <style>
         .Navbar{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             width:100%;
             margin:10px;
-            padding:10px 0 5px 25px;
+            padding:10px 50px 5px 25px;
             border-bottom:1px outset;
             font-size:24px;
             font-weight: bold;
         }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-list {
+            display: none;
+            position: absolute;
+            right:15px;
+            text-align: center;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius:10px;
+        }
+        .dropdown-list a {
+            color: black;
+            padding: 12px;
+            font-size:16px;
+            justify:center;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-list a:hover {background-color: #ddd;}
+        .dropdown:hover .dropdown-list {display: block;}
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+        .content  a{
+            display: flex;
+            width:100%;
+            margin:10px;
+            padding:10px 50px 5px 25px;
+            border-bottom:1px outset;
+            font-size:24px;
+            font-weight: bold;
+        }
+        .content a span:link {
+            text-decoration: none;
+        }
+
+        .content a span:visited {
+            text-decoration: none;
+        }
+        .content a span:hover {
+            text-decoration: underline;
+        }
+        .content a span:active {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -29,11 +77,25 @@
     <div class="Navbar">
         <p>Drive</p>
         <span>
-            <img src="/bxs_user-circle.png" width=40px>
+            <div class="dropdown">
+                <a href="">
+                    <img src="/bxs_user-circle.png" width=40px>
+                </a>
+                <div class="dropdown-list">
+                    <a href="#">Edit Profil</a>
+                    <a href="#">List-2</a>
+                    <a href="/">Log out</a>
+                </div>
+            </div>
         </span>
     </div>
-    <!-- <div class="address">
-        <img src="/Group 3.png" width=100px>
-    </div> -->
+
+    <div class="content">
+        <a href="">
+            <img src="/image 4.png" width=40px>
+            <span> 2021</span>
+        </a>
+        
+    </div>
 </body>
 </html>
