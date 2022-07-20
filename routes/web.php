@@ -25,10 +25,11 @@ Route::get('/home', function () {
     return view('Homepage');
 });
 
-Route::get('/SubFolder', function () {
-    return view('SubFolder');
+Route::get('/profil', function () {
+    return view('Profil');
 });
 
-Route::get('/SubFile', function () {
-    return view('SubFile');
+//admin
+Route::get('/admhome', function () {
+    return view('adminHomepage');
 });

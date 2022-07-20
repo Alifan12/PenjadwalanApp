@@ -52,18 +52,19 @@
             border-bottom:1px outset;
             font-size:24px;
             font-weight: bold;
+            
         }
-        .content a span:link {
+        .content a:link {
             text-decoration: none;
         }
 
-        .content a span:visited {
+        .content a:visited {
             text-decoration: none;
         }
-        .content a span:hover {
+        .content a:hover {
             text-decoration: underline;
         }
-        .content a span:active {
+        .content a:active {
             text-decoration: underline;
         }
     </style>
@@ -82,7 +83,7 @@
                     <img src="/bxs_user-circle.png" width=40px>
                 </a>
                 <div class="dropdown-list">
-                    <a href="#">Edit Profil</a>
+                    <a href="/profil">Edit Profil</a>
                     <a href="#">List-2</a>
                     <a href="/">Log out</a>
                 </div>
