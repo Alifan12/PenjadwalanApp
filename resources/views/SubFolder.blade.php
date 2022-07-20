@@ -21,6 +21,18 @@
     background-size: cover;
     position: relative;
   }
+
+  .below-navbar {
+    width: auto;
+    padding: 5px;
+
+  }
+
+  .parentAddress {
+    width: 50%;
+  }
+
+  .iconProfile {}
   </style>
 </head>
 
@@ -31,7 +43,7 @@
       <p>Drive</p>
     </div>
     <div class="iconProfile">
-      <img src="" alt="">
+      <img src="bxs_user-circle.png" alt="Profile">
     </div>
   </div>
 

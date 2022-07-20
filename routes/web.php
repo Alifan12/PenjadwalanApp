@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/register', function () {
-    return view('Register');
+    return view('RegisterPage');
 });
 Route::get('/home', function () {
     return view('Homepage');
