@@ -28,3 +28,6 @@ Route::get('/home', function () {
 Route::get('/driveTahun', function () {
     return view('DriveTahun');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
