@@ -25,9 +25,6 @@ Route::get('/home', function () {
     return view('Homepage');
 });
 
-Route::get('/driveTahun', function () {
-    return view('DriveTahun');
+Route::get('/SubFolder', function () {
+    return view('SubFolder');
 });
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

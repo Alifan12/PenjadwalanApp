@@ -11,9 +11,29 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
   </script>
+
+  <style>
+  .nav-bar {
+    width: auto;
+    background-image: url('Group 3.png');
+    min-height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  </style>
 </head>
 
 <body>
+  <div class="nav-bar"></div>
+  <div class="below-navbar">
+    <div class="parentAddress">
+      <p>Drive</p>
+    </div>
+    <div class="iconProfile">
+      <img src="" alt="">
+    </div>
+  </div>
 
 </body>
 
