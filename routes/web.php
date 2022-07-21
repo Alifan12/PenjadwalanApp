@@ -37,6 +37,10 @@ Route::get('/profil', function () {
     return view('Profil');
 });
 
+Route::get('/userDownload', function () {
+    return view('unggahUser');
+});
+
 
 //admin
 
@@ -49,4 +53,8 @@ Route::get('/admhomefolder', function () {
 });
 Route::get('/admhomeuser', function () {
     return view('adminhomepageuser');
+});
+
+Route::get('/admUser', function () {
+    return view('admUser');
 });
