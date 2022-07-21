@@ -21,7 +21,6 @@
       'main tengah logo';
     margin: 50px;
     box-sizing: border-box;
-
     position: fixed;
     top: 50%; 
     left: 50%;
@@ -32,12 +31,17 @@
     border: 1px solid #000000;
     border-radius: 20px;
   }
-
+  .container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   .txtfilled {
     margin: 20px;
   }
 
   form {
+    float:left;
     text-align: center;
   }
 

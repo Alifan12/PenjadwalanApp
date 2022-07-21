@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdminMenu</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         .Navbar{
             display: flex;
             justify-content: space-between;
@@ -26,17 +33,44 @@
             left: 50%;
             transform: translate(-50%, -50%);
             margin: auto;
-            width: 50%;
+            width: 80%;
             /* background: #F5F5F5; */
             /* border: 1px solid #000000; */
             border-radius: 20px;
         }
-        .container span {
+        .container .menu {
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
             width:100%;
-            height:100%;
-            background: #F5F5F5; 
-            border: 1px solid #000000;
-            justify-content: center;
+            height:100%;  
+        }
+        .container .menu a{
+            border:1px solid black;
+            padding:80px;
+            border-radius: 10px;
+            text-align:center;
+            align-items:center;
+            line-height: 15px;
+            
+        }
+        .container .menu p{
+            color:black;
+            font-weight:bold;
+            font-size:24px;
+        }
+        .container .menu a:link {
+            text-decoration: none;
+        }
+
+        .container .menu a:visited {
+            text-decoration: none;
+        }
+        .container .menu a:hover {
+            text-decoration: underline;
+        }
+        .container .menu a:active {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -47,17 +81,21 @@
         </div>
     </nav>
     <div class="container">
-        <span>
-        <a href="#">
-                <img src="/image 34.png" width=200px>
-                <p>Manajemen Akses User</p>
-        </a>
-        <a href="/admhomefolder">
-                <img src="/image 35.png" alt="">
-                <p>Manajemen Akses User</p>
-            </a>
-        </span>
-         
+        <div class="menu">
+            <div class="card" style="width:400px">
+                <a href="/admhomefolder" class="stretched-link">
+                    <img class="card-img-top" src="/image 35.png" alt="Card image"  style="width:50%">
+                    <p>Manajemen Folder</p>
+                </a>
+            </div>
+            <div class="card" style="width:400px">
+                <a href="/admhomeuser" class="stretched-link">
+                    <img class="card-img-top" src="/image 34.png" alt="Card image"  style="width:50%">
+                    <p>Manajemen Users</p>
+                </a>
+            </div>
+        </div>
+  </div>
     </div>
 </body>
 </html>

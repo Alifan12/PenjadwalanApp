@@ -39,3 +39,6 @@ Route::get('/adm', function () {
 Route::get('/admhomefolder', function () {
     return view('adminHomepagefolder');
 });
+Route::get('/admhomeuser', function () {
+    return view('adminhomepageuser');
+});
