@@ -25,6 +25,14 @@ Route::get('/home', function () {
     return view('Homepage');
 });
 
+Route::get('/folderUser', function () {
+    return view('SubFolder');
+});
+
+Route::get('/fileUser', function () {
+    return view('UserFile');
+});
+
 Route::get('/profil', function () {
     return view('Profil');
 });
