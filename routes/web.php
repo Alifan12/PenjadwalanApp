@@ -29,7 +29,13 @@ Route::get('/profil', function () {
     return view('Profil');
 });
 
+
 //admin
-Route::get('/admhome', function () {
-    return view('adminHomepage');
+
+Route::get('/adm', function () {
+    return view('adminmenu');
+});
+
+Route::get('/admhomefolder', function () {
+    return view('adminHomepagefolder');
 });
