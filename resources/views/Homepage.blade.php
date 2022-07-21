@@ -52,7 +52,7 @@
             border-bottom:1px outset;
             font-size:24px;
             font-weight: bold;
-            
+            color:black;
         }
         .content a:link {
             text-decoration: none;
@@ -66,6 +66,9 @@
         }
         .content a:active {
             text-decoration: underline;
+        }
+        .content a span{
+            padding-left:20px;
         }
     </style>
 </head>
@@ -96,7 +99,18 @@
             <img src="/image 4.png" width=40px>
             <span> 2021</span>
         </a>
-        
+    </div>
+    <div class="content">
+        <a href="">
+            <img src="/image 4.png" width=40px>
+            <span> 2022</span>
+        </a>
+    </div>
+    <div class="content">
+        <a href="">
+            <img src="/image 4.png" width=40px>
+            <span> 2023</span>
+        </a>
     </div>
 </body>
 </html>
