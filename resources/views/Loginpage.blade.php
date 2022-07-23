@@ -9,10 +9,8 @@
   <style>
   body {
     background-image: linear-gradient(to right, rgba(0, 230, 244, 0.89), rgba(0, 0, 128, 1));
-    width: 100%;
-    height: 100%;
-    font-family: 'Inknut Antiqua';
-    font-style: normal;
+    width: 100vh;
+    height: 100vh;
   }
 
   .container {
