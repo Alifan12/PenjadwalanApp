@@ -14,8 +14,11 @@ return new class extends Migration
     public function up()
     {
         Schema::create('file', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->bigIncrements('id_file');
+            $table->string('nama_file', 60);
+            $table->string('jenis_file', 60);
+            $table->float('size_file');
+            $table->date('tgl_unggah');
         });
     }
 

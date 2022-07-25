@@ -14,8 +14,11 @@ return new class extends Migration
     public function up()
     {
         Schema::create('folder', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->bigIncrements('id_folder', 60);
+            $table->string('nama_folder', 60);
+            $table->string('pengakses', 60);
+            $table->date('tgl_dibuat');
+            $table->string('tahun', 60);
         });
     }
 
