@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\createRapatbaruController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Loginpage');
-});
+Route::get('/login', [LoginController::class, 'index']);
 
-Route::get('/register', function () {
-    return view('RegisterPage');
+Route::post('/register', function () {
+    return view('Register');
 });
 Route::get('/home', function () {
     return view('Homepage');
