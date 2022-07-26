@@ -35,6 +35,22 @@
   h5 {
     text-align: center;
   }
+  .content .row .col .card a{
+    padding:15px; 
+  }
+  .content .row .col .card a:link {
+          text-decoration: none;
+          color:black;
+        }
+  .content .row .col .card a:visited {
+            text-decoration: none;
+        }
+  .content .row .col .card a:hover {
+            text-decoration: underline;
+        }
+  .content .row .col .card a:active {
+            text-decoration: underline;
+        }
   </style>
 </head>
 
@@ -44,82 +60,102 @@
     <div class="row row-cols-1 row-cols-md-5 g-1">
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User A</h5>
-          </div>
+          <a href="" >
+            <img src="Vector (2).png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">User A</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User B</h5>
-          </div>
+          <a href="">
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User B</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User C</h5>
-          </div>
+          <a href="">
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User C</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User D</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User D</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User E</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User E</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User F</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User F</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User G</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User G</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User H</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User H</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User I</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User I</h5>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="Vector (2).png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">User J</h5>
-          </div>
+          <a href="">  
+            <img src="Vector (2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">User J</h5>
+            </div>
+          </a>
         </div>
       </div>
     </div>
