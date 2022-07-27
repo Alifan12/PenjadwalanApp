@@ -65,7 +65,8 @@
 
 <body>
   <div class="container">
-    <form action="#" method="post">
+    <form action="/register" method="post">
+      @csrf
       <div class="txtfilled">
         <p>Daftar</p>
         <input class="icon-1" type="text" name="Nama Lengkap" required class="form-control" placeholder="Nama Lengkap"

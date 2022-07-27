@@ -16,6 +16,10 @@ return new class extends Migration
         Schema::create('user', function (Blueprint $table) {
             $table->bigIncrements('nip', 60);
             $table->string('nama_user', 60);
+            $table->string('alamat', 60);
+            $table->string('unit_kerja',60);
+            $table->string('email',60);
+            $table->string('nomor_telepon', 60);
             $table->string('username_user', 60);
             $table->string('password_user', 60);
             $table->string('hak_akses_folder', 60);
