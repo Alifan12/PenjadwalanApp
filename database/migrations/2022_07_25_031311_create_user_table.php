@@ -20,9 +20,7 @@ return new class extends Migration
             $table->string('unit_kerja',60);
             $table->string('email',60);
             $table->string('nomor_telepon', 60);
-            $table->string('username_user', 60);
             $table->string('password_user', 60);
-            $table->string('hak_akses_folder', 60);
         });
     }
 

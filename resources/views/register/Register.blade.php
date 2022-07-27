@@ -69,7 +69,7 @@
       @csrf
       <div class="txtfilled">
         <p>Daftar</p>
-        <input class="icon-1" type="text" name="Nama Lengkap" required class="form-control" placeholder="Nama Lengkap"
+        <input class="icon-1" type="text" name="Nama Lengkap" required class="form-control rounded-top @error('namalengkap') is-invalid @enderror" placeholder="Nama Lengkap"
           id="namalengkap" size="40">
       </div>
       <div class="txtfilled">
