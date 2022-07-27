@@ -68,7 +68,7 @@
   <div class="nav-bar"></div>
   <div class="content">
     <div class="row justify-content-md-center">
-      <div class="col-sm-3 mx-auto" style="border:1px solid black; padding:20px;">
+      <div class="col-sm-3 mx-auto" >
           <div class="card">
             <!-- <a href=""> -->
               <img src="Vector (2).png" class="card-img-top" style=" width: auto; height: auto;">
@@ -78,7 +78,7 @@
             <!-- </a> -->
           </div>
       </div>
-      <div class="col-lg" style="border:1px solid black; ">
+      <div class="col-lg">
         <h2>Folder yang diakses</h2>
         <div class="scroll">
           <ul class="list-group list-group-flush">

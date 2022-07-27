@@ -48,8 +48,8 @@ Route::get('/adm', function () {
 Route::get('/admhomefolder', function () {
     return view('adminHomepagefolder');
 });
-Route::get('/admhomeuser', function () {
-    return view('adminhomepageuser');
+Route::get('/access', function () {
+    return view('admUseraccess');
 });
 
 Route::get('/admUser', function () {
