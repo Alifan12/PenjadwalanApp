@@ -69,8 +69,8 @@
       @csrf
       <div class="txtfilled">
         <p>Daftar</p>
-        <input class="icon-1" type="text" name="Nama Lengkap" required class="form-control rounded-top @error('namalengkap') is-invalid @enderror" placeholder="Nama Lengkap"
-          id="namalengkap" size="40">
+        <input class="icon-1" type="text" name="Nama Lengkap" required class="form-control rounded-top @error('nama') is-invalid @enderror" placeholder="Nama Lengkap"
+          id="nama_user" size="40">
       </div>
       <div class="txtfilled">
         <input class="icon-1" type="text" name="NIP" required class="form-control" placeholder="NIP" id="nip" size="40">
@@ -81,7 +81,7 @@
       </div>
       <div class="txtfilled">
         <input class="icon-1" type="text" name="Nama Unit" required class="form-control" placeholder="Nama Unit Kerja"
-          id="namaunitkerja" size="40">
+          id="unit_kerja" size="40">
       </div>
       <div class="txtfilled">
         <input class="icon-1" type="email" name="email" required class="form-control" placeholder="Email" id="email"
@@ -89,11 +89,11 @@
       </div>
       <div class="txtfilled">
         <input class="icon-1" type="text" name="notelp" required class="form-control" placeholder="Nomor Telepon"
-          id="notelp" size="40">
+          id="nomor_telepon" size="40">
       </div>
       <div class="txtfilled">
         <input class="icon-1" type="password" name="password" required class="form-control" placeholder="Password"
-          id="password" size="40">
+          id="password_user" size="40">
       </div>
       <div class="txtfilled">
         <input class="icon-1" type="password" name="password" placeholder="Konfirmasi Password" id="konfirmasipassword"

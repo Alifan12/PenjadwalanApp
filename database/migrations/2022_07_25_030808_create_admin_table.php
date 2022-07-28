@@ -14,10 +14,12 @@ return new class extends Migration
     public function up()
     {
         Schema::create('admin', function (Blueprint $table) {
-            $table->bigIncrements('nip');
-            $table->string('nama_admin');
-            $table->string('username_admin');
-            $table->string('password_admin');
+            $table->bigIncrements('nip', 60);
+            $table->string('nama_admin', 60);
+            $table->string('alamat', 60);
+            $table->string('email',60);
+            $table->string('nomor_telepon', 60);
+            $table->string('password_admin', 60);
         });
     }
 

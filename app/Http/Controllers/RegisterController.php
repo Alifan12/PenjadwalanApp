@@ -16,13 +16,13 @@ class RegisterController extends Controller
     }
     public function store(Request $request){
         $validatedData = $request->validate([
-            'nama' =>'required|max:255',
-            'nip'=>'required|max:255',
+            'nama_user' =>'required|max:255',
+            'nip'=>'required|max:255|unique:user',
             'alamat'=>'required|max:255',
-            'namaunitkerja'=>'required|max:255',
-            'email'=>'required|email',
-            'telepon'=>'required',
-            'password'=>'required_with:konfirmasipassword|same:konfirmasipassword|min:6|max:255',
+            'unit_kerja'=>'required|max:255',
+            'email'=>'required|email|max:255',
+            'nomor_telepon'=>'required|max:255',
+            'password_user'=>'required_with:konfirmasipassword|same:konfirmasipassword|min:6|max:255',
             'konfirmasipassword'=>'min:6'
         ]);
 
@@ -32,7 +32,6 @@ class RegisterController extends Controller
 
         User::create($validatedData);
 
-
-        return redirect('/login');
+        return redirect('/');
     }
 }
