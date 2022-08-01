@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('file', function (Blueprint $table) {
-            $table->bigIncrements('id_file');
+        Schema::create('files', function (Blueprint $table) {
+            $table->id('id_file');
             $table->string('nama_file', 60);
             $table->string('jenis_file', 60);
             $table->float('size_file');

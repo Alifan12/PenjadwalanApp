@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('folder', function (Blueprint $table) {
-            $table->bigIncrements('id_folder', 60);
+        Schema::create('folders', function (Blueprint $table) {
+            $table->id('id_folder');
             $table->string('nama_folder', 60);
             $table->string('pengakses', 60);
             $table->date('tgl_dibuat');

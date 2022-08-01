@@ -69,18 +69,18 @@
       @csrf
       <div class="txtfilled">
         <p>Daftar</p>
-        <input class="icon-1" type="text" name="Nama Lengkap" required class="form-control rounded-top @error('nama') is-invalid @enderror" placeholder="Nama Lengkap"
+        <input class="icon-1" type="text" name="nama_user" required class="form-control rounded-top" placeholder="Nama Lengkap"
           id="nama_user" size="40">
       </div>
       <div class="txtfilled">
-        <input class="icon-1" type="text" name="NIP" required class="form-control" placeholder="NIP" id="nip" size="40">
+        <input class="icon-1" type="text" name="nip" required class="form-control" placeholder="NIP" id="nip" size="40">
       </div>
       <div class="txtfilled">
-        <input class="icon-1" type="text" name="Alamat" required class="form-control" placeholder="Alamat" id="alamat"
+        <input class="icon-1" type="text" name="alamat" required class="form-control" placeholder="Alamat" id="alamat"
           size="40">
       </div>
       <div class="txtfilled">
-        <input class="icon-1" type="text" name="Nama Unit" required class="form-control" placeholder="Nama Unit Kerja"
+        <input class="icon-1" type="text" name="unit_kerja" required class="form-control" placeholder="Nama Unit Kerja"
           id="unit_kerja" size="40">
       </div>
       <div class="txtfilled">
@@ -88,16 +88,12 @@
           size="40">
       </div>
       <div class="txtfilled">
-        <input class="icon-1" type="text" name="notelp" required class="form-control" placeholder="Nomor Telepon"
+        <input class="icon-1" type="text" name="nomor_telepon" required class="form-control" placeholder="Nomor Telepon"
           id="nomor_telepon" size="40">
       </div>
       <div class="txtfilled">
-        <input class="icon-1" type="password" name="password" required class="form-control" placeholder="Password"
+        <input class="icon-1" type="password" name="password_user" required class="form-control" placeholder="Password"
           id="password_user" size="40">
-      </div>
-      <div class="txtfilled">
-        <input class="icon-1" type="password" name="password" placeholder="Konfirmasi Password" id="konfirmasipassword"
-          size="40">
       </div>
       <div class="txtfilled">
         <button type="submit" class="button">Daftar</button>

@@ -15,23 +15,36 @@ class RegisterController extends Controller
         ]);
     }
     public function store(Request $request){
-        $validatedData = $request->validate([
-            'nama_user' =>'required|max:255',
-            'nip'=>'required|max:255|unique:user',
-            'alamat'=>'required|max:255',
-            'unit_kerja'=>'required|max:255',
-            'email'=>'required|email|max:255',
-            'nomor_telepon'=>'required|max:255',
-            'password_user'=>'required_with:konfirmasipassword|same:konfirmasipassword|min:6|max:255',
-            'konfirmasipassword'=>'min:6'
-        ]);
+        $user = new User;
+        $user->nama_user=$request->nama_user;
+        $user->nip=$request->nip;
+        $user->alamat=$request->alamat;
+        $user->unit_kerja=$request->unit_kerja;
+        $user->email=$request->email;
+        $user->nomor_telepon=$request->nomor_telepon;
+        $user->password_user=$request->password_user;
 
-        //$validatedData['password'] = bcrypt($validatedData['password']);
+        $user->save();
 
-        $validatedData['password'] = Hash::make($validatedData['password']);
-
-        User::create($validatedData);
-
-        return redirect('/');
     }
+    // public function store(Request $request){
+    //     $validatedData = $request->validate([
+    //         'nama_user' =>'required',
+    //         'nip'=>'required',
+    //         'alamat'=>'required',
+    //         'unit_kerja'=>'required',
+    //         'email'=>'required|email',
+    //         'nomor_telepon'=>'required',
+    //         'password_user'=>'required_with:konfirmasipassword|same:konfirmasipassword|min:6',
+    //         'konfirmasipassword'=>'min:6'
+    //     ]);
+
+    //     //$validatedData['password'] = bcrypt($validatedData['password']);
+
+    //     $validatedData['password'] = Hash::make($validatedData['password']);
+
+    //     User::create($validatedData);
+
+    //     return redirect('/');
+    // }
 }
